@@ -1,0 +1,7 @@
+numpy
+pandas
+tensorflow
+matplotlib
+scikit-learn
+opencv-python==4.10.0.82
+pyYAML==6.0.1

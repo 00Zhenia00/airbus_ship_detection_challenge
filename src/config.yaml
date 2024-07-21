@@ -1,0 +1,25 @@
+# Initial settings
+train_dataset_path: ../../airbus-ship-detection/train_ship_segmentations_v2.csv
+train_images_path: ../../airbus-ship-detection/train_v2
+test_dataset_path: ../../airbus-ship-detection/sample_submission_v2.csv
+test_images_path: ../../airbus-ship-detection/test_v2
+save_model_path: ../models/best_weights.keras
+save_history_path: ../models/hist1
+
+# Images settings
+image_height: 768
+image_width: 768
+image_channels: 3
+
+# Model settings
+input_height: 128
+input_width: 128
+input_channels: 3
+
+# Training settings
+epoch_num: 10
+data_size: 9000
+batch_size: 32
+train_size: 0.7
+ship_images_ratio: 0.75
+non_ship_images_ratio: 0.25
